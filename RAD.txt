@@ -1,0 +1,63 @@
+Put simply, the steeper the line from your bottom bracket to your grips, the more range of motion you’ll have for braking, cornering and going down things, and the better your bike will feel on technical descents. The shallower that line, the more your bike will feel optimized for climbs.
+
+Recommended RAAD for Trail Hardtail = (60° / 58° Sagged)
+
+HEIGHT * 4.47                = RAD
+HEIGHT * (2.45 / 2.5 / 2.55) = REACH
+RAD    * (5.25, 5.55, 5.85)  = REACH
+
+Spank Handlebar Model	Barclamp Diameter	Width	Rises (mm)	Sweep (Up/Back)	Setback (mm)
+Spike 35 Vibrocore	35mm	820mm (Adj. to 760mm)	25	5°/8°	55
+Spike 800 Vibrocore	31.8mm	800mm (Adj. to 740mm)	15/30/50	4°/8°	49/54/60
+Spike 777FR Vibrocore	31.8mm	777mm (Adj. to 747mm)	15/30/50	4°/8°	47/52/58
+Spike 800 Race	31.8mm	800mm (Adj. to 740mm)	15/30/50	4°/8°	49/54/60
+Oozy 35	35mm	780mm (Adj. to 740mm)	25	5°/8°	52
+Oozy 780 Vibrocore	31.8mm	780mm (Adj. to 740mm)	15/25	5°/7°	46/50
+Oozy 780 Trail	31.8mm	780mm (Adj. to 740mm)	5/15/30	5°/8°	36/39/44
+Oozy 760 Vibrocore	31.8mm	760mm (Adj. to 720mm)	5	4°/6°	35
+Spoon 785	31.8mm	785mm (no min Adj.)	20/40	5°/8.5°	53/60
+Spoon 25	31.8mm	785mm (no min Adj.)	25	5°/8°	51
+Spoon 40	31.8mm	785mm (no min Adj.)	40	5°/9°	60
+Spoon 60	31.8mm	785mm (no min Adj.)	60	4°/10°	68
+
+SQlab handlebar model	Backsweep°	Material	Rise model	Rise mm at 75mm from end	Rise mm at end	Setback mm at 75mm from end	Setback mm at end
+30X	12	Aluminum/Carbon	Low	16	21	30	46
+30X	12	Aluminum/Carbon	Medium	31	36	30	46
+30X	12	Aluminum/Carbon	High	46	51	31	46
+30X	16	Aluminum/Carbon	Low	16	21	43	64
+30X	16	Aluminum/Carbon	Medium	31	36	43	64
+30X	16	Aluminum/Carbon	High	46	51	44	64
+FL-X	12	Carbon	Low	14	19	26	42
+FL-X	12	Carbon	Medium	29	34	26	42
+FL-X	16	Carbon	Low	14	19	38	58
+FL-X	16	Carbon	Medium	29	34	38	5
+
+Brand and model	Rise in mm	Width in mm	Setback in mm
+Nukeproof Warhead
+measured by rsclio	20	760	46
+Exotic Riser
+measured by ashwinearl	15	710	26
+Niner Flat Top
+measured by ashwinearl	5	710	34
+Race Face Chester 35mm
+measured by Brian Petry	35	780	54
+Race Face Next 1/4 rise handlebar
+measured by ashwinearl	6	720	30 approx.
+Origin8 Trail Sweeper
+0° upsweep
+15° backsweep		760	50mm at 760mm
+45mm at 680mm
+Ergotec riser	70	780
+680	57
+47
+Santa Cruz Carbon Flat Bars	7	760	30
+Renthal Fatbar Lite Carbon 35
+Measured by Geoffrey Duffield	20	760	30
+Race Face Next 35mm Carbon	20	760	30
+Renthal Fatbar Aluminum 31.8	30	800	50
+Renthal FatBar Lite Carbon Zero Rise Handlebar: 31.8mm	0mm	780
+630	35
+23
+Fasst Flexxbar Enduro	25	800	50
+Salsa Carbon Rustler Riser as measured by Salsa	15	800	53
+OneUp carbon	35	800	20
