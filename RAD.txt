@@ -1,10 +1,5 @@
-Put simply, the steeper the line from your bottom bracket to your grips, the more range of motion you’ll have for braking, cornering and going down things, and the better your bike will feel on technical descents. The shallower that line, the more your bike will feel optimized for climbs.
 
-Recommended RAAD for Trail Hardtail = (60° / 58° Sagged)
 
-HEIGHT * 4.47                = RAD
-HEIGHT * (2.45 / 2.5 / 2.55) = REACH
-RAD    * (5.25, 5.55, 5.85)  = REACH
 
 Spank Handlebar Model	Barclamp Diameter	Width	Rises (mm)	Sweep (Up/Back)	Setback (mm)
 Spike 35 Vibrocore	35mm	820mm (Adj. to 760mm)	25	5°/8°	55
