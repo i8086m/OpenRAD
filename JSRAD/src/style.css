@@ -1,0 +1,16 @@
+
+.block {
+	margin: auto;
+	border: 2px solid red;
+	width: fit-content;
+	padding: 15px;
+	width:50%;
+	
+	text-align: center;
+	background-color: lightyellow;
+}
+
+.section {
+	text-align: left;
+	margin-bottom: 12px;
+}

@@ -1,0 +1,149 @@
+<html>
+	<head>
+		<title>RideLogic Bike Calculator</title>
+		<script src="http://code.jquery.com/jquery.min.js"></script>
+		<link href="src/style.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="src/script.js"></script>
+	</head>
+	
+	<body>
+	<div  class="block">
+	
+		<h1>RideLogic Bike Calculator</h1>
+		<div class=section>
+		
+		Guesswork, anxiety and wasted money end here. Buy the perfect frame, stem and handlebars for your body and riding style. Do the math before you spend $,$$$!<br><br>
+
+		<b>Step 1: Measure your body RAD</b><br>
+		For directions, check out this lesson on <a href="https://youtu.be/rHagRovHSYs?feature=shared&t=265">measuring your RAD with a RipRow or broomstick</a><br>
+
+		If you don't want to measure, or as a check of your measurement, you should <a href="https://youtu.be/rHagRovHSYs?feature=shared&t=213">calculate your body RAD.</a><br><br>
+
+		<b>Step 2: Calculate the dimensions of your new setup</b><br>
+		In the fields below, measurements for the frame, stem and handlebar you're thinking about buying. Tweak those parameters until you get the RAD, RAD Angle and SHO you want. In order of importance:<br>
+		
+		<ul>
+		<li><strong>RAD</strong>. Rider Area Distance. Distance from bottom bracket to midpoint of the grips. This is the most important number. Your bike RAD should match your body RAD.
+		</li>
+		<li><strong>RAD Angle.</strong> Formerly known as RAAD. Angle of RAD compared with level. This is second most important. Most riders are best with a RAD Angle between 58 and 60 degrees.</li>
+		<li><strong>SHO.</strong> Steering/hands offset. Horizontal distance between the center of the stem clamp area and the midpoint of the grips .The closer to zero millimeters the better. But this is tertiary to RAD and RAD Angle.</li>
+		</ul>
+
+		</div>
+		
+		<hr>
+		<div class=section>
+		<b>Frame information</b><br>
+		These numbers are listed in your frame's specs.
+		If you've changed your shock length, fork length or tire size (if front is different from rear) it would be smart to re-measure.
+		</div>
+		
+		<div>
+		<div><b>Head angle (degrees)</b></div>
+		<input type="number" class="qty" value="0" id="bikeHeadAngle"/>
+		<div>This is the head angle of your frame.</div>
+		<br>
+		</div>		
+		
+		<div>
+		<div><b>Frame reach (mm)</b></div>
+		<input type="number" class="qty" value="0" id="bikeReach"/>
+		<div>This is the reach of your frame, aka the horizontal distance between the bottom bracket and head tube.</div>
+		<br>
+		</div>
+		
+		<div>
+		<div><b>Frame stack (mm)</b></div>
+		<input type="number" class="qty" value="0" id="bikeStack"/>
+		<div>This is the rise (or stack) of your frame, aka the vertical distance between the bottom bracket and head tube.</div>
+		<br>
+		</div>
+		
+		
+		<hr>
+		<div class=section>
+		<b>Stem and handlebar information</b><br>
+		Accuracy is important. Look up the specs you can (handlebar rise, stem length, stem angle and head angle). Measure the rest (handlebar setback, half stack).
+		</div>
+		
+		<div>
+		<div><b>Handlebar setback (mm)</b></div>
+		<input type="number" class="qty" value="0" id="bikeSetback"/>
+		<div>With bar at neutral angle, how far are the grips behind the center of the clamp area?<br>Average riser bars are about 30mm. <a href="images/setback.png">Setbacks for various handlebars.</a></div>
+		<br>
+		</div>
+		
+		<div>
+		<div><b>Handlebar rise (mm)</b></div>
+		<input type="number" class="qty" value="0" id="bikeRise"/>
+		<div>This is printed on the handlebar or its packaging (eg 10mm). You can measure this while you measure setback</div>
+		<br>
+		</div>
+		
+		<div>
+		<div><b>Stem length (mm)</b></div>
+		<input type="number" class="qty" value="0" id="bikeStemLength"/>
+		<div>This is almost always printed on the stem (eg 50mm).<br>If not, measure from the middle of the steerer tube clamp area to the middle of the handlebar clamp.</div>
+		<br>
+		</div>
+		
+		<div>
+		<div><b>Stem angle (degrees)</b></div>
+		<input type="number" class="qty" value="0" id="bikeStemAngle"/>
+		<div>This is the amount of rise (eg 8 deg) or drop (eg -8 deg).<br>This number is printed on the stem, it's packaging or online.<br>If your stem has drop or is upside down, enter a negative number (eg -10).</div>
+		<br>
+		</div>
+		
+		<div>
+		<div><b>Half stack (mm)</b></div>
+		<input type="number" class="qty" value="0" id="bikeHalfStack"/>
+		<div>This is the distance from the middle of the top of the frame's head tube to the middle of the stem's steerer tube clamp area. This number includes the top of the head seat, spacers under the stem and half of the stem's clamp height.<br>25mm is pretty average. <a href="images/halfstack.png">See this image.</a></div>
+		<br>
+		</div>
+		
+		<hr>
+		<div class=section>
+		<b>New cockpit information</b><br>
+		Based on the stem, handlebar and frame information you entered, here are the RAD, reach and stack of your bike's entire cockpit (from the bottom bracket to the handlebars.)<br>
+		When setting up your bike, make RAD as close to perfect as you can.<br>
+		When your bike's RAD is a bit longer than your ideal, you sacrifice power and control (the last 10mm is magic).<br>
+		When your bike's RAD is a bit shorter than your ideal, that can work very well. You see this with some downhillers and freestylers (and a lot of very tall people).<br>
+		</div>
+
+		<div>
+		<div><b>Rider Area Distance (RAD)</b></div>
+		<input readonly type="number" class="qty" value="0" id="bikeRAD"/>
+		<br>
+		</div>
+		
+		<div>
+		<div><b>Rider Area Angle in Degrees (RAAD)</b></div>
+		<input readonly type="number" class="qty" value="0" id="bikeRAAD"/>
+		<br>
+		</div>
+		
+		<div>
+		<div><b>Steering/Hands Offset (SHO)</b></div>
+		<input readonly type="number" class="qty" value="0" id="bikeSHO"/>
+		<br>
+		</div>
+		
+		<div>
+		<div><b>Effective Reach and Stack</b></div>
+		<input readonly type="number" class="qty" value="0" id="bikeEffReach"/>
+		<input readonly type="number" class="qty" value="0" id="bikeEffStack"/>
+		<br>
+		</div>
+		
+		<br>
+		<hr>
+
+	</div>
+	
+	<center>
+	<br>
+	Originally designed by <a href="https://www.llbmtb.com/">Lee McCormack</a>, Ported by <a href="https://www.t.me/i8086m">i8086m</a>
+	</center>
+	
+	</body> 
+</html>
