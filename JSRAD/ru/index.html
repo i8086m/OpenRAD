@@ -1,0 +1,161 @@
+<html>
+	<head>
+		<title>RideLogic Bike Calculator</title>
+		<script src="http://code.jquery.com/jquery.min.js"></script>
+		<link href="../src/style.css" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="../src/script.js"></script>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	</head>
+	
+	<body>
+	<div  class="block">
+	
+		<h1>RideLogic Bike Calculator</h1>
+		<div class=section>
+		
+		Больше никаких догадок, беспокойства и напрасно потраченных денег. Купите идеальную раму, вынос и руль для своего тела и стиля езды. Посчитайте, прежде чем тратить ₽,₽₽₽!<br><br>
+
+		<b>Этап 1: Измерьте свой показатель RAD</b><br>
+		Для ознакомления с инструкциями посмотрите этот урок об <a href="https://youtu.be/rHagRovHSYs?feature=shared&t=265">измерении RAD при помощи палки или метлы</a><br>
+
+		Если Вы не хотите проводить измерения, или в качестве проверки результатов измерений, вам следует  <a href="https://youtu.be/rHagRovHSYs?feature=shared&t=213">расчитать свой примерный RAD.</a> Для этого умножьте свой рост в сантиметрах на 2.5 (2.45 или 2.55, если вы хотите больше мобильности или стабильности соответственно)<br><br>
+
+		<b>Этап 2: Расчитайте параметры вашего велосипеда</b><br>
+		В полях ниже укажите размеры рамы, выноса и руля, которые вы планируете приобрести. Играйтесь с этими параметрами, пока не получите желаемые значения RAD, RAD Angle (RAAD) и SHO. В порядке убывания важности:<br>
+		
+		<ul>
+		<li><strong>RAD</strong>. Rider Area Distance. Расстояние от центра каретки до середины грипс руля. Это наиболее важное число. RAD вашего велосипеда должен соответствовать RAD вашего тела.
+		</li>
+		<li><strong>RAD Angle.</strong> Также известен как RAAD. Угол RAD по сравнению с землей. Это второй по важности показатель. Для большинства райдеров оптимальным является угол RAD между 58 и 60 градусами.</li>
+		<li><strong>SHO.</strong> Смещение управления. Горизонтальное расстояние между проекцией рулевой колонки и серединой грипс руля. Чем ближе к нулю миллиметров, тем лучше. Но это уже вторично по отношению к RAD и RAD Angle.</li>
+		</ul>
+
+		</div>
+		
+		<hr>
+		<div class=section>
+		<b>Инофрмация о раме</b><br>
+		Эти цифры указаны в спецификации рамы.
+		Если Вы изменили длину амортизатора, длину вилки или размер покрышки (если передняя отличается от задней), то было бы разумно провести повторное измерение.
+		</div>
+		
+		<div>
+		<div><b>Угол наклона штока вилки (градусы)</b></div>
+		<input type="number" class="qty" value="0" id="bikeHeadAngle"/>
+		<div>Это угол наклона рулевой и вилки (обычно между 62-72 градусами)</div>
+		<br>
+		</div>		
+		
+		<div>
+		<div><b>Рич рамы (мм)</b></div>
+		<input type="number" class="qty" value="0" id="bikeReach"/>
+		<div>Это рич (вылет) рамы, т.е. горизонтальное расстояние между кареткой и центром рулевой колонки.</div>
+		<br>
+		</div>
+		
+		<div>
+		<div><b>Стек рамы (мм)</b></div>
+		<input type="number" class="qty" value="0" id="bikeStack"/>
+		<div>Это стек (подъем) рамы, т.е. вертикальное расстояние между кареткой и центром рулевой колонки.</div>
+		<br>
+		</div>
+		
+		
+		<hr>
+		<div class=section>
+		<b>Информация о выносе и руле</b><br>
+		Точность очень важна. Найдите все возможные характеристики (райс/подъем руля, длина выноса, угол подъема выноса). Измерьте остальные параметры (отклонение руля назад, среднестековое значение).
+		</div>
+		
+		<div>
+		<div><b>Смещение руля назад (мм)</b></div>
+		<input type="number" class="qty" value="0" id="bikeSetback"/>
+		<div>При нейтральном угле наклона руля, на каком расстоянии находятся рукоятки от центра зоны зажима?<br>Среднестатистический руль с райзом имеет смещение около 30-35мм. <a href="../images/setback.png">Тут можно посмотреть смещение некоторых моделей рулей.</a></div>
+		<br>
+		</div>
+		
+		<div>
+		<div><b>Райз/подъем руля (мм)</b></div>
+		<input type="number" class="qty" value="0" id="bikeRise"/>
+		<div>Это указано на руле или на его упаковке (например 10мм). Можно измерить пока измеряете смещение руля</div>
+		<br>
+		</div>
+		
+		<div>
+		<div><b>Длина выноса (мм)</b></div>
+		<input type="number" class="qty" value="0" id="bikeStemLength"/>
+		<div>Обычно написано на выносе (например 50мм).</div>
+		<br>
+		</div>
+		
+		<div>
+		<div><b>Подъем выноса (градусы)</b></div>
+		<input type="number" class="qty" value="0" id="bikeStemAngle"/>
+		<div>Это величина подъема (например, 8 град.) или спада (например, -8 град.)<br>Это число указано на выносе, упаковке или в интернете.</div>
+		<br>
+		</div>
+		
+		<div>
+		<div><b>Среднестековое значение (мм)</b></div>
+		<input type="number" class="qty" value="0" id="bikeHalfStack"/>
+		<div>Это расстояние от середины верхней части рулевой трубы рамы до середины зоны зажима штока. В это число входят верхняя часть рулевой, спейсеры под шток и половина высоты выноса.<br>Обычно около 25-30мм. <a href="../images/halfstack.png">Тут показано наглядно.</a></div>
+		<br>
+		</div>
+		
+		<hr>
+		<div class=section>
+		<b>Новая информация о кабине</b><br>
+		На основе данных о выносе, руле и раме, введенных вами, получены значения RAD, RAD Angle, Эффективных Рича и Стека всего вашего велосипеда (от каретки до грипс).<br>
+		При подборе компонентов велосипеда постарайтесь сделать RAD максимально близким к идеальному.<br>
+		Если RAD вашего велосипеда немного длиннее вашего идеала, вы жертвуете мощностью и контролем (последние 10мм творят чудеса).<br>
+		Когда RAD вашего велосипеда немного короче, чем ваш идеал, это может быть неплохо. Меньший RAD можно наблюдать у некоторых даунхильщиков и фристайлеров.<br>
+		</div>
+
+		<div>
+		<div><b>Rider Area Distance (RAD) - Длина RAD</b></div>
+		<input readonly type="number" class="qty" value="0" id="bikeRAD"/>
+		<br>
+		</div>
+		
+		<div>
+		<div><b>Rider Area Angle in Degrees (RAAD) - Угол RAD</b></div>
+		<input readonly type="number" class="qty" value="0" id="bikeRAAD"/>
+		<br>
+		</div>
+		
+		<div>
+		<div><b>Steering/Hands Offset (SHO) - Смещение управления</b></div>
+		<input readonly type="number" class="qty" value="0" id="bikeSHO"/>
+		<br>
+		</div>
+		
+		<div>
+		<div><b>Эффективные Reach и Stack</b></div>
+		<input readonly type="number" class="qty" value="0" id="bikeEffReach"/>
+		<input readonly type="number" class="qty" value="0" id="bikeEffStack"/>
+		<br>
+		
+		</div>
+		
+		<br>
+		
+		<img src="../images/diag.png" style="width:50%;">
+		
+		<br>
+		<br>
+		
+		<img src="../images/raad.png" style="width:50%;">
+		
+		
+		<br>
+		<hr>
+
+	</div>
+	
+	<center>
+	<br>
+	Originally designed by <a href="https://www.llbmtb.com/">Lee McCormack</a>, Ported by <a href="https://www.t.me/i8086m">i8086m</a>
+	</center>
+	
+	</body> 
+</html>
