@@ -45,10 +45,10 @@ If staying off your face is important to you, do not reduce your rider area angl
 • The traditionally long cockpit usually comes with bars that are too high, which makes a too-long rider area and decreases power out of the saddle.
 The ”wisdom” that long stems improve climbing is bullshit, especially when standing.<br/>
 
-
-
-<img src='images/raad2.png' width=28.3%>
-<img src='images/raad3.png' width=40%>
+<p float="left">
+  <img src='images/raad2.png' width=28.3%>
+  <img src='images/raad3.png' width=40%>
+</p>
 
 ### SHO (Steering/Hand offset)
 
@@ -57,7 +57,7 @@ SHO is the horizontal line that runs from the steering axis to the midpoint of t
 Your favorite SHO (if you have one) is determined by your riding style, personal preference or (most likely) what you’re accustomed to riding.<br/>
 If you have a favorite handlebar/stem combo, you might like the SHO they create.<br/>
 
-<img src='images/sho/sho.png' width=40%>
+<img src='images/sho/SHO.png' width=40%>
 
 What does SHO mean?
 We humans can ride a wide range of setups, from 150mm XC stems to direct-mount downhill downhill stems. We are very adaptable.
