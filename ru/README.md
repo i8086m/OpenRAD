@@ -1,0 +1,1 @@
+# OpenRAD Calculator (Russian version)
